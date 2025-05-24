@@ -1,11 +1,11 @@
 # Auto Submit Tool CodePTIT
 
 ## Mục đích
-Tự động submit nhiều bài Python lên hệ thống code.ptit.edu.vn (PTIT OJ) một cách nhanh chóng và tiện lợi, anh em chỉ nên sử dụng khi đến sát deadline mà không nộp đủ số bài, tránh lạm dụng nhé XD
+Tự động submit nhiều bài Python lên hệ thống codeptit một cách nhanh chóng và tiện lợi, anh em chỉ nên sử dụng khi đến sát deadline mà không nộp đủ số bài, tránh lạm dụng nhé XD
 
 ## Yêu cầu
 - Python 3.x
-- Thư viện requests (`pip install requirement`)
+- Thư viện requests (`pip install requirements`)
 - Đã đăng nhập vào code.ptit.edu.vn trên trình duyệt để lấy cookie và token
 
 ## Chuẩn bị
@@ -41,6 +41,3 @@ Tự động submit nhiều bài Python lên hệ thống code.ptit.edu.vn (PTIT
 - Nếu submit lỗi xác thực, hãy lấy lại cookie và token mới từ trình duyệt.
 - Không cần nhập username/password khi chạy tool (chỉ cần cookie và token).
 - Có thể chỉnh thời gian chờ giữa các lần submit bằng cách sửa `time.sleep(10)` trong `main.py`, anh em nào cẩn thận thì chỉnh cho giãn ra tí, tránh bị ghi log
-
-## Liên hệ
-Nếu có vấn đề hoặc cần hỗ trợ, hãy liên hệ tác giả hoặc để lại issue trên repository.
